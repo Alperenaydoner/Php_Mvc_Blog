@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body{
+	font-family: "trebuchet ms", arial, sans-serif;
+	font-size:13px;
+	background-image: url(/public/images/background.png);
+	
+}
+
+#header
+{
+	height: 240px;
+	background-image: url(/public/images/header.png);
+;
+	
+}
+
+#logo
+{
+	width: 900px;
+
+position: relative;
+	height:168px;
+	
+	margin-left:auto;
+	margin-right:auto;
+  }
+
+
+#logo h1{
+	color: #FFF;
+	letter-spacing: 4px;
+	padding-top: 42px;
+	font:38px'century gothic', arial, sans-serif;	
+	
+}
+.logo_rengi{
+	color:#1293EE;
+	
+	}  
+#logo h2{
+	font:13px'century gothic', arial, sans-serif;	;
+	color: #DDD;
+	padding-top: 4px;
+	padding-left:5px;
+	
+	}
+#menu{
+	width:900px;
+	height:72px;
+	background:#1293EE;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+	}
+#menu ul{
+	list-style:none;
+	
+	}
+	
+#menu ul li{
+	float: left;
+	display: block;
+	height: 37px;
+	text-align: center;
+	padding: 29px 26px 6px 26px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	}
+
+#menu ul li a{
+	text-decoration: none;	
+	color: #FFF;
+	}
+	
+.activite {
+	background: #0D66A5;
+	}
+	
+#content{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+#icerik{
+	width: 670px;
+	float: left;
+	margin-top: 16px;
+	height: 725px;
+	}
+	
+#icerik_1,#icerik_2{
+	padding-top: 16px;
+	padding-right: 24px;
+	padding-bottom: 23px;
+	padding-left: 20px;
+	color: #333;
+	text-align: justify;
+	line-height: 21px;
+	}
+	
+	
+#icerik_1 h2,#icerik_2 h2 {
+	
+  font: 22px 'trebuchet ms' , arial, sans-serif;
+  color: #1293EE;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+}
+
+#sidebar{
+	width: 230px;
+	float: left;
+	height: 725px;
+	}
+	
+#sidebar .gadget {
+	color: #777;
+	line-height: 30px;
+	padding-top: 10px;
+	padding-right: 16px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	margin-left: 10px;
+}
+
+#sidebar  h2{
+	font: 22px 'trebuchet ms' , arial, sans-serif;
+	color: #1293ee;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: -15px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	
+  }
+	
+#clear{
+	clear: both;
+	
+	}	
+#footer
+{
+	width: 900px;
+	height: 33px;
+	text-align: center;
+	background: #1293EE;
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'lucida sans unicode', arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	padding-top: 24px;
+	padding-right: 0px;
+	
+  
+  }
+
+#footer a
+{
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+}
+
+#footer a:hover
+{
+	color: #0D66A5;
+	text-decoration: underline;
+}
+	
